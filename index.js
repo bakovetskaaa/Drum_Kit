@@ -10,7 +10,7 @@ for( let i = 0; i < numberOfDrumButtons; i++ ){  // "for" connecting our number 
         let buttonInnerHTML = this.innerHTML;  // daughter classes our current button
 
         makeSound(buttonInnerHTML);             //call function "MAKE SOUND" by innerHTML
-        this.style.color = "white";             // white button
+        // this.style.color = "white";             // white button
 
         buttonAnimation(buttonInnerHTML);     // call function "ANIMATION"
 
